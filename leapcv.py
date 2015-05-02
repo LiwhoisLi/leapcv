@@ -2,7 +2,7 @@ import cv2
 import Leap,sys
 from Leap import SwipeGesture
 
-img = cv2.imread('../lena.jpg')
+img = cv2.imread('lena.jpg')
 
 class SampleListener(Leap.Listener):
 
